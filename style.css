@@ -41,7 +41,7 @@ body {
     transform: translate(0, 500px);
   }
 }
-@media all and (max-width: 520px) {
+@media all and (max-width: 360px) {
   .wrapper {
     transform: scale(0.6);
   }
