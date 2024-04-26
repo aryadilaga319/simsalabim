@@ -22,7 +22,7 @@ class TextDesintegrator {
       const defaultOptions = {
         padding: 160,
         density: 4,
-        duration: 1900 // in ms
+        duration: 2000 // in ms
       };
       this.step = 0;
       this.count = 0;
