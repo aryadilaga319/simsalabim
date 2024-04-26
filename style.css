@@ -28,22 +28,21 @@ body {
   .td-hide {
     opacity: 0;
   }
-@media(max-width: 992px) {
-        .navbar  .links,
-        .navbar  .action_btn {
-            display: none;
-        }
-        .navbar .toggle_btn{
-            display: block;
-           
-        }
-        .dropdown_menu{
-            display: block;
-        }
-    }
-    @media(max-width: 576px) {
-        .dropdown_menu{
-            left: 2rem;
-            width: unset;
-        }
-    }
+@keyframes blow {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+  20% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.5;
+    transform: translate(0, 500px);
+  }
+}
+@media all and (max-width: 520px) {
+  .wrapper {
+    transform: scale(0.6);
+  }
+}
