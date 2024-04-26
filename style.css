@@ -28,20 +28,9 @@ body {
   .td-hide {
     opacity: 0;
   }
-@keyframes blow {
-  0% {
-    opacity: 0;
-    transform: translate(0, 0);
-  }
-  20% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 0.5;
-    transform: translate(0, 500px);
-  }
+
 }
-@media all and (max-width: 360px) {
+@media (max-width: 360px) {
   .h1 {
     transform: scale(1.0);
   }
