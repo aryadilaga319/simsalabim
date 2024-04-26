@@ -42,7 +42,7 @@ body {
   }
 }
 @media all and (max-width: 360px) {
-  .wrapper {
+  .td-wrapper {
     transform: scale(0.6);
   }
 }
