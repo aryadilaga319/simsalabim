@@ -32,14 +32,15 @@ body {
 }
 @media (max-width: 360px) {
   .h1 {
-    transform: scale(0.6);
+    transform: scale(1);
   }
     @media (max-width: 360px) {
   .canvas {
-    transform: scale(0.6);
+    transform: scale(1);
   }
  @media (max-width: 360px) {
-  .td-wrapper,canvas {
-    transform: scale(0.6);
+  .td-wrapper,
+      canvas {
+    transform: scale(1);
   }
 
